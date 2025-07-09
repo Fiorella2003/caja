@@ -1,0 +1,12 @@
+/* Estilo para el borde de los módulos */
+.main-sidebar .nav-sidebar .nav-item {
+    margin-bottom: 3px; /* Espacio entre módulos */
+    background-color: white; /* Fondo blanco para los módulos */
+}
+
+/* Cambiar color del módulo al hacer clic */
+.main-sidebar .nav-sidebar .nav-item > .nav-link.active,
+.main-sidebar .nav-sidebar .nav-item > .nav-link:hover {
+    background-color: #4CA1A3 !important;
+    color: white !important;
+}
